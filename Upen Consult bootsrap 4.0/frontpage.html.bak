@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Upen Consults</title>
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css\bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css\style.css">
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<!--script type="text/javascript" src="engine0/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<!--script type="text/javascript" src="engine0/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section --></head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<img class="title-logo" src="images\upenlogo.jpg" alt="Upen Logo" class="img-responsive">
+			</div>
+			<div class="col-md-6 text-right text-uppercase">
+				<h1 class="title-super text-thin">Upen Consult</h1>
+				<h4>Content Solutions</h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<hr>
+			</div>
+		</div>
+	
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="text-mutted">Our Services</h2>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-md-3">
+				<img src="images/contents.jpg" class="img-responsive" data-toggle="modal" data-target="#project1">
+				<h3 class="type">Content Solutions</h3>
+			</div>
+		
+			<div class="col-md-3">
+				<img src="images/public.jpg" class="img-responsive" data-toggle="modal" data-target="#project2">
+				<h3 class="type">Public Speaking</h3>
+			</div>
+		
+			<div class="col-md-3">
+				<img src="images/digital.png" class="img-responsive" data-toggle="modal" data-target="#project3">
+				<h3 class="type">Digital Marketing</h3>
+			</div>
+		
+			<div class="col-md-3">
+				<img src="images/life1.jpg" class="img-responsive" data-toggle="modal" data-target="#project4">
+				<h3 class="type">Life Coaching</h3>
+			</div>
+		</div>
+	</div>
+ 	<!-- Modal -->
+	<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel">Content Solutions</h4>
+				</div>
+				<div class="modal-body">
+					<img src="images/contents.jpg" alt="Content Solutions" class="img-responsive">
+					We offer Content Solutions which includes; Article writing in blogs, websites and press releases.
+					Speech writing, Editing and power point presentations, Editing and proofreading and thesis, Project and Column writing.
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel">Public Speaing</h4>
+				</div>
+				<div class="modal-body">
+					<img src="images/public.jpg" alt="Public Speaing" class="img-responsive">
+					This includes Public Speaking in conferences, seminers and functioning as MC in any cooperate settings, 
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel">Digital Marketing</h4>
+				</div>
+				<div class="modal-body">
+					<img src="images/digital.png" alt="Digital Marketing" class="img-responsive">
+					This includes Content Markekting, email Marketing and Social media Marketing. 
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel">Life Coaching</h4>
+				</div>
+				<div class="modal-body">
+					<img src="images/life1.jpg" alt="Life Coaching" class="img-responsive">
+					This involves coaching individuals in various spheres of life to be the best in their endeavours and influence their enviroment positively.
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
